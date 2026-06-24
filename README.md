@@ -48,14 +48,14 @@ Modern graphics APIs often require us filling out descriptors, matching up their
   cargo add --git https://github.com/raymarch/shame shame
   ```
 3. convert `shame`'s output (shader code and pipeline info) to your graphics API
-    > A [wgpu] example of this can be found at [examples/shame_wgpu/src/conversion.rs], which is used by the example applications. If you intend on targeting [wgpu] you can also use the [examples/shame_wgpu] crate directly. If you target a different API, that example can still be a useful reference.
+    > A [wgpu] example of this can be found at [shame_wgpu/src/conversion.rs], which is used by the example applications. If you intend on targeting [wgpu] you can also use the [shame_wgpu] crate directly. If you target a different API, that example can still be a useful reference.
 
 4. check out the [api overview](examples/api_showcase/src/main.rs) of  `shame` and have fun writing pipelines in Rust!
 
 [examples/api_showcase/src/main.rs]: examples/api_showcase/src/main.rs
 
-[examples/shame_wgpu/src/conversion.rs]: examples/shame_wgpu/src/conversion.rs
-[examples/shame_wgpu]: examples/shame_wgpu
+[shame_wgpu/src/conversion.rs]: shame_wgpu/src/conversion.rs
+[shame_wgpu]: shame_wgpu
 
 ## Code example (more in examples folder)
 

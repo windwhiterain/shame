@@ -4,8 +4,12 @@ resolver = "2"
 members = [
     "shame_derive",
     "shame",
+    "shame_wgpu",
     "examples/*",
 ]
+
+[workspace.dependencies]
+wgpu = "25.0.0"
 
 [profile.dev]
 split-debuginfo = "unpacked"
