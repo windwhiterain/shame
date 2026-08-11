@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "shame_derive",
+    "shame",
+    "shame_wgpu",
+    "examples/*",
+]
+
+[workspace.dependencies]
+wgpu = "29.0.4"
+
+[profile.dev]
+split-debuginfo = "unpacked"
+
+# [profile.dev.package.shame]
+# opt-level = 3
